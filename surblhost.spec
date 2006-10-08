@@ -2,6 +2,7 @@
 # - resolv linking failure? checking for res_init in -lresolv... no
 #
 Summary:	Check if hostnames are blacklisted by surbl.org
+Summary(pl):	Sprawdzanie czy hosty s± na czarnej li¶cie surbl.org
 Name:		surblhost
 Version:	0.6.0
 Release:	1
@@ -15,6 +16,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Surblhost is a small program to see if hostnames are listed in the
 Spam URI Realtime Blocklists (SURBL).
+
+%description -l pl
+Surblhost to ma³y program do sprawdzania, czy hosty s± na czarnej
+li¶cie SURBL (Spam URI Realtime Blocklists).
 
 %prep
 %setup -q

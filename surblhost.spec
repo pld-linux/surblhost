@@ -2,7 +2,7 @@
 # - resolv linking failure? checking for res_init in -lresolv... no
 #
 Summary:	Check if hostnames are blacklisted by surbl.org
-Summary(pl.UTF-8):   Sprawdzanie czy hosty są na czarnej liście surbl.org
+Summary(pl.UTF-8):	Sprawdzanie czy hosty są na czarnej liście surbl.org
 Name:		surblhost
 Version:	0.6.0
 Release:	1

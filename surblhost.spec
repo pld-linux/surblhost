@@ -4,12 +4,12 @@
 Summary:	Check if hostnames are blacklisted by surbl.org
 Summary(pl.UTF-8):	Sprawdzanie czy hosty są na czarnej liście surbl.org
 Name:		surblhost
-Version:	0.6.0
+Version:	0.8.0
 Release:	1
 License:	GPL v2
 Group:		Applications
 Source0:	http://dl.sourceforge.net/surblhost/%{name}-%{version}.tar.bz2
-# Source0-md5:	59a3d610906b19bb19bfa336734902c0
+# Source0-md5:	54017dbba7065eff3168c0e89de82358
 URL:		http://surblhost.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
